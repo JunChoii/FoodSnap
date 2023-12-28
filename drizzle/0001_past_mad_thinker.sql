@@ -1,0 +1,1 @@
+ALTER TABLE "posts" ADD COLUMN "foodname" text NOT NULL;
