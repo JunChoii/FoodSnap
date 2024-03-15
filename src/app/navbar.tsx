@@ -60,13 +60,13 @@ export default function NavBar({ className }: { className?: string }) {
                   >
                     Videos
                   </Link>
-                  <Link
+                  {/* <Link
                     href="/search"
                     className="hover:bg-neutral-100 dark:hover:bg-neutral-700 flex justify-center items-center h-14 m-8 p-4 rounded-md transition-all fill-none stroke-neutral-600"
                     onClick={toggleMenu}
                   >
                     Search
-                  </Link>
+                  </Link> */}
                   <Link
                     href={"/create"}
                     className="hover:bg-neutral-100 dark:hover:bg-neutral-700 flex justify-center items-center h-14 m-8 p-4 rounded-md transition-all fill-none stroke-neutral-600"
